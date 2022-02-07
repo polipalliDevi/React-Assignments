@@ -1,1 +1,44 @@
-
+.container {
+    width: auto;
+    height: auto;
+}
+.row {
+    display: block;
+    width: auto;
+}
+.yellow , .red, .blue {
+    display: flex;
+}
+.yellow .box {
+    margin: 10px;
+    background-color: rgb(247, 247, 92);
+    height: 200px;
+}
+.red .box {
+    margin: 10px;
+    background-color: rgb(223, 27, 27);
+    height: 200px;
+}
+.blue .box {
+    margin: 10px;
+    background-color: rgb(26, 38, 199);
+    height: 200px;
+}
+@media screen and (min-device-width:1024px){
+    .yellow .box ,.red .box,.blue .box{
+        flex: 1 1 auto;
+    }    
+}
+@media  screen and (min-device-width:768px) and (max-device-width:1023px) {
+    .yellow .box ,.red .box{
+        flex: 1 1 auto;
+    }
+    .blue  {
+        flex-direction: column;
+    }
+}
+@media  screen and (min-device-width:320px) and (max-device-width:767px) {
+    .yellow  ,.red  , .blue {
+        flex-direction: column;
+    }
+}
