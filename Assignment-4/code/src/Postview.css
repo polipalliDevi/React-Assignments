@@ -1,6 +1,4 @@
-.site-container{
-  text-align: center;
-}
+
 html {
   font-size: 14px;
 }
@@ -8,4 +6,74 @@ body {
   line-height: 1.5;
   color: black;
   margin:0;
-} 
+}  
+.top{
+  border-bottom: 1px solid black;
+  height: 6rem;
+}
+
+#roof .logo1{
+  position: absolute;
+  top:1rem;
+  left:1rem;
+  height:50px;
+}
+#roof .logo2{
+  position:absolute;
+  right:3rem;
+  top:1rem;
+  height: 40px;
+}
+#roof h1{
+  position: absolute;
+  top:0;
+  left:6rem;
+  font-size: 50px;
+  margin:0px;
+  color: #106440;
+}
+
+.feed-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.feed-post{
+  border:1px solid black;
+  width:auto;
+  margin:20px;
+  border-radius: 5px;
+}
+.details{
+  border-bottom:1px solid black;
+  display: flex;
+}
+.name-location,.more-icon{
+  width:50%;
+}
+.person-name,.person-location,.heart-icon,.tag-icon,.likes{
+  margin:0px 5px;
+  position:relative;
+  left:0;
+  top:0rem;
+}
+.moreIcon{
+  float:right;
+  margin:25px 10px;
+}
+.feed-info{
+  display:flex;
+}
+.icons{
+  width:70%;
+}
+.date{
+  position:relative;
+  right:0;
+  top:0;
+  margin:0px;
+}
+.-discription{
+  margin:10px;
+}
