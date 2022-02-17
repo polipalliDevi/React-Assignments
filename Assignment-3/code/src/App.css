@@ -1,0 +1,111 @@
+.headerName {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(230, 239, 247);
+    border: 1px solid black;
+    
+   
+}
+.headerName a, .deatialsName ,.headerName button {
+    display: inline-block;
+}
+.headerName a {
+    height: 50px;
+    width: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+    transform: scale(5);
+    margin-left: 40px;
+    
+}
+.headerName .deatialsName {
+
+    margin-top: 0px;
+    margin-left: 600px;
+}
+.headerName button {
+    font-size: 20px;
+    color: white;
+    float: right;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+    background-color: #0a0c0b;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.customer-info {
+    margin: 10px;
+    margin-top: 30px;    
+    border: 1px solid black;
+}
+.customer-info div {
+    margin-left: 10px;
+}
+.order-info {
+    height: auto;
+    width: auto;
+    background-color: rgba(151, 148, 148, 0.26);
+    border: 1px solid black;
+    margin: 10px;
+    margin-top: 30px;
+
+}
+.order-status ,.order-door ,.order-time{
+    display: inline-block;
+}
+.order-status {
+    margin: 10px;
+}
+.order-status strong {
+    font-size: 20px;
+}
+
+.order-door {
+    margin: 10px;
+    margin-left: 600px;
+    font-size: 20px;
+}
+.order-time {
+    display: block;
+    float: right;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.product-list {
+    height:250px;
+    width: auto; 
+    border: 1px solid black;
+    margin: 10px;
+    margin-top: 30px;
+}
+.product-list input {
+    transform: scale(5);
+    margin-left: 35px;
+    
+}
+.product-list input ,.product-list div ,.product-list a {
+    display: inline-block;
+}
+.product-list img {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.prodcut-heading { 
+    float: right;
+    margin: 20px;
+    margin-right: 690px;
+}
+.product-list a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    transform: scale(5);
+    margin-right: 40px;
+    
+    
+}

@@ -1,0 +1,27 @@
+{
+    "user":
+                [
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Kick start your career",
+            "PostImage": "https://filmfare.wwmindia.com/content/2021/jul/maheshbabu31627117126.jpg",
+           " date": ""
+            },
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "Sample Description",
+            "PostImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC6P_pnuI0q931gWGYZvQsBWues3TOBBiYagei81LaSzXXx-z10Uw-VOmIhwQ1cWDKUyY&usqp=CAU",
+            "date":  ""
+            },
+            {
+            "name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "Sample Description for Post",
+            "PostImage": "https://static.toiimg.com/thumb/msid-73168078,width-1200,height-900,resizemode-4/.jpg",
+            "date": ""
+            }
+            ]
+}

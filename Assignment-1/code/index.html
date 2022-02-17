@@ -13,8 +13,34 @@
 <body>
     <div id="root"></div>
     <script type="text/babel">
+      const UiSheet = ({ props }) => {
+      return (
+        <div class="mould">
+          <div class="row yellow">
+            <div class="box">
+            </div>
+            <div class="box">
+            </div>
+          </div>
+          <div class="row red">
+            <div class="box">
+            </div>
+          </div>
+          <div class="row blue">
+            <div class="box">
+            </div>
+            <div class="box">
+            </div>
+            <div class="box">
+            </div>
+          </div>
+        </div>
+      );
+    }
+      
+      
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+ ReactDOM.render(<UiSheet></UiSheet>,document.getElementById('root'));
 
 </script>
 <!--
